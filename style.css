@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Ubuntu' sans-serif
+}
+.container{
+    max-width: 1340;
+    margin: 0 auto;
+    padding: 0 10px;
+}   
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.nav-link{
+    font-family: 'Ubuntu' sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #957554;
+    text-decoration: none;
+
+}
+.nav-link:hover{
+    color: black;
+}
+.navigation{
+    display: flex;
+    gap: 50px;
+}
+
+.first-section{
+    background-image: url(assets/images/full\ image.png);
+    height:100vh ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+.first-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+}
+
+.main-title{
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 92px;
+    color: #FFFFFF;
+}
+
+.description,
+.button,
+.footer-nav-links,
+.footer-text a,
+.footer-text p {
+
+    font-family: 'Ubuntu' sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+ .button{
+    text-decoration: none;
+    background-color: #957554;
+    padding: 25px 133px;
+    border-radius: 10px;
+ }
+
+ .secondary-title{
+    font-family: 'Ubuntu'sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 52px;
+    color: #957554;
+    text-align:center;
+    margin-bottom: 87px;
+    padding: 47px;
+ }
+
+ .rooms-card{
+   
+    width: 630px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    
+      
+ }
+
+ .rooms-card> img{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ 
+ .cards-content{
+    position: absolute;
+    left: 20px;
+    bottom: 57px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: center;
+    width: 100%;
+    
+
+ }
+
+ .card-title{
+    font-family: 'Ubuntu' sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+
+
+ }
+
+ .buttom.button-small{
+    padding: 24px 52px 24px 56px;
+ }
+
+ 
+ .rooms-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+    
+ }
+ .second-section{
+    margin-bottom: 55px;
+ }
+
+ .contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+
+
+ }
+
+ .third-section{
+    margin-bottom:122px ;
+ }
+
+ footer{
+    background: #111111;
+    padding: 51px; 0 159px;
+    
+ }
+
+ .footer-contant{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .footer-navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 28px
+ }
+
+  .footer-nav-links{
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-nav-links:hover,
+ .footer-text a:hover{
+    color: #DFAA5B
+
+ }
+
+ >.footer-text a{
+    display: block;
+    font-weight: 300;
+    text-decoration: none;
+ }
+
+ .footer-contant img{
+    width: 154px;
+    height: 126px;
+    object-fit: cover;
+ }
+
+ .news-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid:60px;
+    grid-template-rows: 500px;
+    margin-bottom: 50px;
+ }
+
+ .news-card img{
+    width: 100;
+    height: 100;
+    object-fit: cover;
+    border-radius: 10px;
+ }
+
+ .news-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 44px;
+ }
+
+ .news-card-content h3{
+    color: #957554;
+ }
+ 
+ .news-card-content p{
+    color: black;
+ }
+
+ .news-cards:nth-child(2n) img{
+    order: 1;
+ }
+
+ .news-card:nth-child(2n) .news-card-content{
+   align-items: end;
+ }
+
+ .news-card:nth-child(2n) .news-card-content p{
+   text-align:right;
+ }
+
+ .news-cards:last-child{
+    margin-bottom: 107px;
+ }
+
